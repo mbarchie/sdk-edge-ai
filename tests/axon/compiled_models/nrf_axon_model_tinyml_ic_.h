@@ -1,7 +1,7 @@
 /*********************************************************************************
  * Auto-generated nrf Axon compiled neural network model header file.
  * Model Name: tinyml_ic
- * Axon Neural Network Compiler Version: 1.0.0
+ * Axon Neural Network Compiler Version: 1.0.1
  *********************************************************************************/
 #ifdef __cplusplus
 extern "C" {
@@ -3776,7 +3776,7 @@ const NRF_AXON_PLATFORM_BITWIDTH_UNSIGNED_TYPE cmd_buffer_tinyml_ic[9670] = {
   uint32_t axon_model_tinyml_ic_packed_output_buf[NRF_AXON_MODEL_TINYML_IC_PACKED_OUTPUT_SIZE/sizeof(uint32_t)];
 #endif
 const nrf_axon_nn_compiled_model_s model_tinyml_ic = {
-    .compiler_version = 0x00010000,
+    .compiler_version = 0x00010001,
     .model_name = "tinyml_ic",
     .labels = labels_tinyml_ic,
     .inputs = {
